@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산기"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/etext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btn_multi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btn_divid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btn_equal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="성적계산기"
+        android:textSize="50dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/kor"
+        android:hint="국어점수"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/eng"
+        android:hint="영어점수"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/math"
+        android:hint="수학점수"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_ave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="평균점수"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/aveResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="평균점수"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
